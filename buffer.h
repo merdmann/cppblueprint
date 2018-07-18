@@ -15,5 +15,4 @@ class buffer {
 };
 #endif
 
-
 #define _BUFFER_H
