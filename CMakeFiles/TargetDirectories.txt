@@ -1,0 +1,4 @@
+/home/merdmann/work/buffer/CMakeFiles/rebuild_cache.dir
+/home/merdmann/work/buffer/CMakeFiles/edit_cache.dir
+/home/merdmann/work/buffer/CMakeFiles/main.dir
+/home/merdmann/work/buffer/CMakeFiles/buffer.dir

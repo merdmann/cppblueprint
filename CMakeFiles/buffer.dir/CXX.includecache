@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/merdmann/work/buffer/buffer.cpp
+iostream
+-
+buffer.h
+/home/merdmann/work/buffer/buffer.h
+malloc.h
+/home/merdmann/work/buffer/malloc.h
+
+/home/merdmann/work/buffer/buffer.h
+
