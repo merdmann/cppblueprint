@@ -6,7 +6,7 @@
 
 int main()
 {
-  buffer t;
+  buffer t(100);
 
   std::cout << "Starting" << std::endl;
   t.put('h');

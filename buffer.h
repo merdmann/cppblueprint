@@ -17,6 +17,11 @@ class buffer {
         buffer() {
             std::cout << "Constructor called";
         }
+
+        buffer(int size) {
+            this->data = (char*) malloc(size);
+            this->size = size;
+        }
 };
 
 #endif
