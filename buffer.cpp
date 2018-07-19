@@ -3,14 +3,6 @@
 #include "buffer.h"
 #include "malloc.h"
 
-/*
-buffer::buffer(void) {
-    std::cout << "Buffer create";
-    this->size = 1000;
-    this->data = (char*)malloc(this->size);
-    this->rdptr = 0;
-    this->wrptr = 0;
-};*/
 
 void buffer::put(char c) {
     std::cout << "put";
