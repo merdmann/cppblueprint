@@ -1,5 +1,6 @@
 
 #ifndef _BUFFER_H
+#define _BUFFER_H
 
 class buffer {
     private:
@@ -12,7 +13,10 @@ class buffer {
     public:
         void put(char c);
         char get() ;   
-};
-#endif
 
-#define _BUFFER_H
+        buffer() {
+            std::cout << "Constructor called";
+        }
+};
+
+#endif

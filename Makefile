@@ -123,26 +123,13 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-#=============================================================================
-# Target rules for targets named buffer
-
-# Build rule for target.
-buffer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 buffer
-.PHONY : buffer
-
-# fast build rule for target.
-buffer/fast:
-	$(MAKE) -f CMakeFiles/buffer.dir/build.make CMakeFiles/buffer.dir/build
-.PHONY : buffer/fast
-
 buffer.o: buffer.cpp.o
 
 .PHONY : buffer.o
 
 # target to build an object file
 buffer.cpp.o:
-	$(MAKE) -f CMakeFiles/buffer.dir/build.make CMakeFiles/buffer.dir/buffer.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/buffer.cpp.o
 .PHONY : buffer.cpp.o
 
 buffer.i: buffer.cpp.i
@@ -151,7 +138,7 @@ buffer.i: buffer.cpp.i
 
 # target to preprocess a source file
 buffer.cpp.i:
-	$(MAKE) -f CMakeFiles/buffer.dir/build.make CMakeFiles/buffer.dir/buffer.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/buffer.cpp.i
 .PHONY : buffer.cpp.i
 
 buffer.s: buffer.cpp.s
@@ -160,7 +147,7 @@ buffer.s: buffer.cpp.s
 
 # target to generate assembly for a file
 buffer.cpp.s:
-	$(MAKE) -f CMakeFiles/buffer.dir/build.make CMakeFiles/buffer.dir/buffer.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/buffer.cpp.s
 .PHONY : buffer.cpp.s
 
 main.o: main.cpp.o
@@ -197,9 +184,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... buffer"
+	@echo "... edit_cache"
 	@echo "... buffer.o"
 	@echo "... buffer.i"
 	@echo "... buffer.s"

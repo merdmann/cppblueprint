@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.11)
 
-set(dir ${CMAKE_CURRENT_SOURCE_DIR}/..bin//)
+set(dir ${CMAKE_CURRENT_SOURCE_DIR}/./bin/)
 set(EXECUTABLE_OUTPUT_PATH ${dir} CACHE PATH "Build directory" FORCE)
 set(LIBRARY_OUTPUT_PATH ${dir} CACHE PATH "Build directory" FORCE)
 
@@ -13,10 +13,6 @@ project(buffer)
 add_executable(
     main
     main.cpp
-)
-
-add_executable(
-    buffer
     buffer.cpp
-
 )
+
