@@ -1,3 +1,3 @@
-# this is a small Cpp projkect just for a fast start.
+# this is a small Cpp projekct just for a fast start.
 
 
